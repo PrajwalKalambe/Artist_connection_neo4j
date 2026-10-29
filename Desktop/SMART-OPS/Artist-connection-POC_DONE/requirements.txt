@@ -1,0 +1,13 @@
+# Python 3.14 compatible floors (see docs/PYTHON_3_14_UPGRADE.md).
+# Version-range pins instead of exact "==" so pip can resolve whichever
+# current patch actually ships a cp314 wheel.
+langchain>=1.4.0
+langchain-core>=1.6.2
+langchain-community
+langchain-ollama
+neo4j>=6.0
+streamlit>=1.60
+python-dotenv
+langsmith
+pydantic>=2.12.0
+pytest
